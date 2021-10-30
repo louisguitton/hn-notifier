@@ -2,6 +2,8 @@
 
 > Get notified on Discord when someone posts an article from your domain on Hacker News
 
+![](docs/hn-notifier.png)
+
 ## Installation
 
 ```sh
