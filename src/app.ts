@@ -9,7 +9,7 @@ require("dotenv").config();
 
 const DOMAIN = process.env.DOMAIN;
 const DISCORD_WEBHOOK = process.env.DISCORD_WEBHOOK;
-const DEBUG = process.env.DEBUG;
+const DEBUG = process.env.DEBUG === "true";
 
 enum HackerNewsItemType {
   story,

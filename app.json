@@ -1,0 +1,24 @@
+{
+    "name": "hn-notifier",
+    "description": "Get notified on Discord when someone posts an article from your domain on Hacker News",
+    "repository": "https://github.com/louisguitton/hn-notifier",
+    "keywords": [
+        "hacker-news",
+        "discord"
+    ],
+    "env": {
+        "DISCORD_WEBHOOK": {
+            "description": "The Discord Webhook to send messages to.",
+            "value": "https://discord.com/api/webhooks/{webhook.id}/{webhook.token}"
+        },
+        "DOMAIN": {
+            "description": "The domain to watch on Hacker News.",
+            "value": "mydomain.com"
+        },
+        "DEBUG": {
+            "description": "true/false: In debug mode, receive every message.",
+            "value": "false",
+            "required": false
+        }
+    }
+}

@@ -16,7 +16,12 @@ npm run build
 
 ## Heroku deployment
 
-Ref: https://devcenter.heroku.com/articles/deploying-nodejs
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+Ref:
+
+- https://devcenter.heroku.com/articles/deploying-nodejs
+- https://devcenter.heroku.com/articles/app-json-schema#env
 
 Initial setup:
 
