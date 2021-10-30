@@ -1,22 +1,31 @@
 {
   "name": "hn-notifier",
   "version": "1.0.0",
-  "description": "Get notified when someone posts an article from your domain on Hacker News",
-  "main": "app.js",
+  "description": "Get notified on Discord when someone posts an article from your domain on Hacker News",
+  "main": "src/app.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx ts-node src/app.ts",
+    "start": "ts-node src/app.ts",
+    "dev": "nodemon -x ts-node src/app.ts",
+    "start:heroku-local": "heroku local web",
     "repl": "npx ts-node"
   },
-  "author": "Louis Guitton",
+  "keywords": [
+    "hacker-news",
+    "discord"
+  ],
+  "author": "louisguitton",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
     "dotenv": "^10.0.0",
-    "firebase": "^9.2.0"
-  },
-  "devDependencies": {
+    "firebase": "^9.2.0",
     "ts-node": "^10.4.0",
     "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
