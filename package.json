@@ -1,0 +1,22 @@
+{
+  "name": "hn-notifier",
+  "version": "1.0.0",
+  "description": "Get notified when someone posts an article from your domain on Hacker News",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/app.ts",
+    "repl": "npx ts-node"
+  },
+  "author": "Louis Guitton",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "firebase": "^9.2.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
